@@ -7,68 +7,64 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#  Siphokazi Halala Cele — Developer Portfolio
 
-### `npm test`
+Welcome to my developer portfolio! This project showcases my skills, projects, education, and documents in a clean and modern layout. It is built with **React** and styled using **CSS Modules**, following best practices for modular, scalable frontend development.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This portfolio was developed using:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-  React (with Create React App)
+-  CSS Modules for modular and scoped styling
+-  react-icons for modern iconography
+-  react-tsparticles for animated tech-themed background
+-  Git & GitHub for version control and deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+##  Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-  Hero section with a short introduction
+-  Tech Stack with animated icons
+-  Education background
+-  Document download links (CV and Portfolio)
+-  Projects section with details and visuals
+-  Social media icons (GitHub, LinkedIn)
+-  Background animations with floating particles
+-  Dark-themed design with a tech/cloud vibe
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+my-portfolio-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── HeroSection.jsx
+│   │   ├── ParticlesBackground.js
+│   ├── Documents.jsx
+│   ├── Education.jsx
+│   ├── Footer.jsx
+│   ├── TechStack.jsx
+│   ├── App.jsx
+│   ├── App.module.css
+│   └── index.js
+├── README.md
+├── package.json
+├── tailwind.config.js (optional)
+└── postcss.config.js (optional)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# My-portfolio
->>>>>>> a43437f486ba182373ae7374c394106e84736fe9
